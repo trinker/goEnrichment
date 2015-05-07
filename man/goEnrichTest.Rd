@@ -32,8 +32,8 @@ FALSE}
 if the opposite is wanted.}
 
 \item{p.adjust.method}{The method used to adjust p-values for multiple
-       hypothesis testing, default is 'fdr'. See function p.adjust for
-       details.}
+hypothesis testing, default is 'fdr'. See function p.adjust for
+details.}
 }
 \value{
 A named list with enriched GO terms in the argument GO categories.

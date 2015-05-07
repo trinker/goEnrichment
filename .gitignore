@@ -1,2 +1,3 @@
 exec/goEnrichment_test_output_fail.tsv
 exec/goEnrichment_test_output_works.tsv
+.Rproj.user

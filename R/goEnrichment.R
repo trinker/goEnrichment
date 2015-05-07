@@ -18,7 +18,7 @@
 #' @param p.adjust.method The method used to adjust p-values for multiple
 #'        hypothesis testing, default is 'fdr'. See function p.adjust for
 #'        details.
-#'
+#' @export
 #' @return A named list with enriched GO terms in the argument GO categories.
 #'
 goEnrichTest <- function(gsc, gene.ids, univ.gene.ids, ontologies = c("BP", "CC", 
@@ -49,7 +49,8 @@ goEnrichTest <- function(gsc, gene.ids, univ.gene.ids, ontologies = c("BP", "CC"
 #'        go-enrichment result as table.
 #' @param p.adjust.method The method to use when adjusting p-values for
 #'        multiple hypothesis testing.
-#'
+#' 
+#' @export
 #' @return A data.frame with the merged enriched GO terms and adjusted
 #' p-values.
 #'   
